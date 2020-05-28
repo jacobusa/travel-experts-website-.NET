@@ -1,0 +1,286 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/*Irada: Adjustments to bootstrap Navbar styling*/
+.navbar.navbar-inverse.navbar-fixed-top {
+    background-color: #004b4f;
+    border-color: #004b4f;
+    -webkit-box-shadow: 0 8px 25px -15px black;
+    -moz-box-shadow: 0 8px 25px -15px black;
+    box-shadow: 0 8px 25px -15px black;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top a {
+    color: #d9d9d9;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+/*Irada: Parallax effect styling using css*/
+.jumbotron {
+    background-image: url('../img/Alex-green.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.maxwidth {
+    width: 100vw;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #6ba3da !important;
+}
+
+.bg-info, .btn-primary {
+    background-color: #114646 !important;
+}
+
+element {
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    text-shadow: 4px 0px 5px #000;
+    color: #fff;
+    font-size: 80px;
+}
+
+.container2 {
+    padding: 20px;
+}
+
+.imghomebig {
+    width: 100%;
+    border: 1px solid #004b4f;
+    height: 250px;
+    background-image: url('../img/Alex_sunflowers.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.titlebox {
+    background-color: #004b4f;
+    padding-top: 0.5px;
+    padding-bottom: 5.5px;
+    text-align: center;
+}
+
+.padding2_5 {
+    padding: 2.5px;
+}
+
+.right-align{
+    margin-left: auto;
+    margin-right: 1vw;
+}
+
+.margin-righ-1vw{
+    margin-right: 0.7vw;
+}
+
+/* ------------Irada: CSS Animations-------------- */
+
+.animation-element.slide-up {
+    opacity: 0;
+    -moz-transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+    -moz-transform: translate3d(100px, 0px, 0px);
+    -webkit-transform: translate3d(100px, 0px, 0px);
+    -o-transform: translate(100px, 0px);
+    -ms-transform: translate(100px, 0px);
+    transform: translate3d(100px, 0px, 0px);
+}
+
+.animation-element.slide-up.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.animation-element {
+    opacity: 0;
+    position: relative;
+}
+
+
+@keyframes slide-up {
+    from {
+        transform: translate3d(0, 40px, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slide-up {
+    from {
+        transform: translate3d(0, 40px, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.animation-element {
+    animation-name: slide-up;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+}
+
+.animation-element.slide-up {
+    opacity: 0;
+}
+
+.animation-element.slide-up.in-view {
+    opacity: 0;
+    animation-name: slide-up;
+    -webkit-animation-name: slide-up;
+}
+
+@keyframes bg-change {
+    0% {
+        background-image: url('../img/Alex-sunflowers.jpg');
+        opacity: 1;
+    }
+
+    20% {
+        background-image: url('../img/Alex_lavender.jpg');
+        opacity: 0;
+    }
+
+    50% {
+        background-image: url('../img/Alex_arch.jpg');
+        opacity: 1;
+    }
+
+    70% {
+        background-image: url('../img/Alex_tree.jpg');
+    }
+    90% {
+        background-image: url('../img/mediterranean.jpg');
+    }
+}
+
+.bg-change-animation2 {
+    animation: bg-change ease 10s;
+    animation-delay: -2s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-end;
+    animation-fill-mode: both;
+}
+
+.bg-change-animation {
+    background-color: hsla(200,40%,30%,.4);
+    background-image: url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'), url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 0 20%, 0 100%, 0 50%, 0 100%, 0 0;
+    background-size: 0px, 800px, 500px 200px, 1000px, 400px 260px;
+    animation: 50s para infinite linear;
+}
+
+@keyframes para {
+    100% {
+        background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
+    }
+}
