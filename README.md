@@ -8,6 +8,6 @@
 ## Sample Login for Agents Portal username: jdahl password: password
 ## Team 1: Jacobus Badenhorst, Karim Khan, Marlon Rodriguez, Irada Shamilova, Lida Goldchteine
 
-### A full stack travel ageny website with registration, authentication, and database connection. The Agents_Portal WPF App makes API calls to a local db configured by the user.
+### A full stack travel ageny website with registration, authentication, and database connection. The Agents_Portal WPF App makes API calls to a local db configured by the user. WPF App incorporates full CRUD functionality with Packages, Products, and Suppliers.
 
-### Tools: Visual Studio, C#, HTML, CSS/Boostrap, SQL
+### Tools: Visual Studio, C#, HTML, CSS/Boostrap, SQL, XAML, JSON
