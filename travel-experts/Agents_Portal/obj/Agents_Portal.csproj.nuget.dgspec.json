@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\Agents_Portal\\Agents_Portal.csproj": {}
+    "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\Agents_Portal\\Agents_Portal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\Agents_Portal\\Agents_Portal.csproj": {
+    "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\Agents_Portal\\Agents_Portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\Agents_Portal\\Agents_Portal.csproj",
+        "projectUniqueName": "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\Agents_Portal\\Agents_Portal.csproj",
         "projectName": "Agents_Portal",
-        "projectPath": "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\Agents_Portal\\Agents_Portal.csproj",
+        "projectPath": "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\Agents_Portal\\Agents_Portal.csproj",
         "packagesPath": "C:\\Users\\853734\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\Agents_Portal\\obj\\",
+        "outputPath": "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\Agents_Portal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\853734\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj": {
-                "projectPath": "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj"
+              "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj": {
+                "projectPath": "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj": {
+    "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj",
         "projectName": "TravelExperts.Team1.WebApp",
-        "projectPath": "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj",
+        "projectPath": "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\TravelExperts.Team1.WebApp\\TravelExperts.Team1.WebApp.csproj",
         "packagesPath": "C:\\Users\\853734\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\853734\\Desktop\\local_travelexperts\\travel-experts\\TravelExperts.Team1.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\853734\\Desktop\\tset\\travel-experts\\TravelExperts.Team1.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\853734\\AppData\\Roaming\\NuGet\\NuGet.Config",

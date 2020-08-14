@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\853734\Desktop\local_travelexperts\travel-experts\Agents_Portal\obj\Release\netcoreapp3.1\
+C:\Users\853734\Desktop\tset\travel-experts\Agents_Portal\obj\Release\netcoreapp3.1\
 Agents_Portal
 none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1
-C:\Users\853734\Desktop\local_travelexperts\travel-experts\Agents_Portal\App.xaml
+C:\Users\853734\Desktop\tset\travel-experts\Agents_Portal\App.xaml
 11-155588280
 
 13-1240176692
-363-124900929
+36363375683
 MainWindow.xaml;UserControlLogin.xaml;UserControlPackageAdd.xaml;UserControlPackageEdit.xaml;UserControlPackageList.xaml;UserControlProductAdd.xaml;UserControlProductEdit.xaml;UserControlProductList.xaml;UserControlSupplierAdd.xaml;UserControlSupplierEdit.xaml;UserControlSupplierList.xaml;
 
 True
