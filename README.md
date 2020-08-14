@@ -1,8 +1,12 @@
 # travel-experts-website-ASP.NET
-## Hosted on Azure : https://travelexperts.azurewebsites.net/
-## Refer to setup manual word document for setup instructions. Sample Login username: gbiers password: password
-## Team 1: Jacobus Badenhorst, Karim Khan, Marlon Rodriguez, Irada Shamilova, Lida Goldchteine
+### Was Hosted on Azure but moved to local because free trial ended
 
-### A full stack travel ageny website with registration, authentication, and database connection. The travel-experts-WPF repo is connected with this project and sends API calls to the database hosted on the cloud.
+## Setup Instructions
+### Run database script in local SQL Server instance and replace connection string inside appsettings.json within TravelExperts.Team1.WebApp. 
+
+### Sample Login for web app and agents portal username: gbiers password: password
+### Team 1: Jacobus Badenhorst, Karim Khan, Marlon Rodriguez, Irada Shamilova, Lida Goldchteine
+
+### A full stack travel ageny website with registration, authentication, and database connection. The Agents_Portal WPF App makes API calls to a local db configured by the user.
 
 ### Tools: Visual Studio, C#, HTML, CSS/Boostrap, SQL

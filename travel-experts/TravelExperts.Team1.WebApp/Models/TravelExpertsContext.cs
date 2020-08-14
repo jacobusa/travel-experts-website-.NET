@@ -1,6 +1,8 @@
 ﻿using System;
+using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
 namespace TravelExperts.Team1.WebApp.Models
 {
@@ -38,12 +40,23 @@ namespace TravelExperts.Team1.WebApp.Models
         public BookingsViewModel BookingsViewModel { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+//            if (!optionsBuilder.IsConfigured)
+//            {
+//                //Irada: Connection string to Azure
+
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+//                optionsBuilder.UseSqlServer("");
+//            }
+
+            // use connection string in appsettings.json
             if (!optionsBuilder.IsConfigured)
             {
-                //Irada: Connection string to Azure
-
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=localhost\\sqlexpress;Initial Catalog=TravelExperts_Team1;Integrated Security=True");
+                IConfigurationRoot configuration = new ConfigurationBuilder()
+                   .SetBasePath(Directory.GetCurrentDirectory())
+                   .AddJsonFile("appsettings.json")
+                   .Build();
+                var connectionString = configuration.GetConnectionString("TravelExpertsDatabase");
+                optionsBuilder.UseSqlServer(connectionString);
             }
         }
 

@@ -16,7 +16,7 @@ namespace TravelExperts.Team1.WebApp.Models
 
         [Key]
         public int ProductSupplierId { get; set; }
-        public int? ProductId { get; set; }
+        public int ProductId { get; set; }
         public int? SupplierId { get; set; }
 
         [ForeignKey(nameof(ProductId))]
