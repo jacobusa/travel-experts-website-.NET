@@ -3,6 +3,7 @@
 
 # Setup Instructions
 - Run database script in local SQL Server instance and replace connection string inside appsettings.json within TravelExperts.Team1.WebApp. 
+- Right click on solution and Rebuild
 
 ## __Sample Login__ for web app username: gbiers password: password
 ## __Sample Login__ for Agents Portal username: jdahl password: password
